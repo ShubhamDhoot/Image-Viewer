@@ -16,7 +16,7 @@ class ImageViewerController extends Component {
       <Router>
         <div>
           <Route exact path='/' render={(props) => <Login {...props} />} />
-         
+          <Route exact path='/home' render={(props) => <Home {...props} baseUrl={this.baseUrl} />} />
         </div>
       </Router>
     )
