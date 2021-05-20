@@ -1,0 +1,93 @@
+.infoModule {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-right: 8%;
+}
+
+.breakLine {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 8px;
+}
+.userDetails {
+    padding-left: 3%;
+}
+
+.imageModule {
+    margin: 40px 70px;
+}
+
+.left-image-modal {
+    padding-right: 15px;
+}
+
+.right-image-modal {
+    width: 50%;
+}
+
+.modal-heading {
+    padding-top: 10px;
+}
+.avatar {
+    width: 130px;
+    height: 130px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+   display: block;
+}
+
+.required {
+    color: red;
+}
+.modal {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+.modal > div:first-child {
+    background-color: white !important;
+    opacity: 0.7 !important;
+}
+
+
+
+.modal-comment-section {
+    height: 220px;
+}
+
+.modal-media-icon-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modal-comment-form-control {
+    width: 310px;
+    margin-right: 10px;
+}
+
+
+.modal-media-img {
+    width: 400px;
+    height: auto;
+}
+
+.media-header {
+    display: flex;
+}
+
+.media-dtl-divider {
+    margin: 10px 0;
+}
+
+.media-caption {
+    margin-bottom: 15px;
+}

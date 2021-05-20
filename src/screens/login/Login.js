@@ -103,7 +103,7 @@ class Login extends Component {
                             </FormControl>
                             <br />
                             <br />
-                            <FormHelperText className={this.state.incorrectCredential}>
+                            <FormHelperText className={this.state.incorrectCred}>
                                 <span className='credential-required'>Incorrect username and/or password</span>
                             </FormHelperText>
                             <br />
